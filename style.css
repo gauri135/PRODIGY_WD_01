@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@200..900&family=Vollkorn:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+body {
+    background-color: #222422;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #444;
+    border-radius: 15px;
+    padding: 40px 20px;
+    background: #333533;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 1px 13px 8px rgb(40, 255, 255); 
+     box-shadow: 1px 1px 13px 8px rgb(45, 214, 186);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper p {
+    color: #ffffff;
+    font-size: 56px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-start {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-stop {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-reset {
+    background-color: #ffc107;
+    color: #222422;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+button:active {
+    transform: translateY(0);
+    opacity: 1;
+}
